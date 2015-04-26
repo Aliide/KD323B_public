@@ -20,6 +20,7 @@ public class Journey {
 	private String arrTimeDeviation;
 	private Station startStation;
 	private Station endStation;
+
 	
 	public Journey(Station startStation, Station endStation) {
 		this.startStation = startStation;

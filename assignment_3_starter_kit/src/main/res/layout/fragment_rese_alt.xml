@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="se.mah.k3.skaneAPI.FragmentRese"
+    >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/avgangISpinner"
+                android:layout_gravity="center_horizontal"
+                android:spinnerMode="dropdown"
+                android:entries="@array/avgang" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/destinationISpinner"
+                android:layout_gravity="center_horizontal"
+                android:spinnerMode="dropdown"
+                android:entries="@array/destination" />
+<!--
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sök"
+                android:id="@+id/btn_sok"
+                android:layout_gravity="start" />
+            -->
+
+            <ExpandableListView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expandableListView"
+                android:layout_gravity="start|top"
+                android:groupIndicator="@null"/>
+        </LinearLayout>
+
+
+
+</FrameLayout>

@@ -21,4 +21,40 @@ limitations under the License.
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string-array name="avgang">
+
+        <item>Lund C, 81216 </item>
+        <item>Ystad Klostret, 86197</item>
+        <item>Lund Bankgatan, 81156</item>
+        <item>Malmö Triangeln, 80140</item>
+        <item>Köpenhamn H, 45007</item>
+        <item>Halmstad C, 13003</item>
+
+    </string-array>
+
+    <string-array name="destination">
+
+        <item>Lund C, 81216 </item>
+        <item>Ystad Klostret, 86197</item>
+        <item>Lund Bankgatan, 81156</item>
+        <item>Malmö Triangeln, 80140</item>
+        <item>Köpenhamn H, 45007</item>
+        <item>Halmstad C, 13003</item>
+
+    </string-array>
+
+    <string-array name="station_numbers">
+
+        <item>81216 </item>
+        <item>86197</item>
+        <item>81156</item>
+        <item>80140</item>
+        <item>45007</item>
+        <item>13003</item>
+
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
